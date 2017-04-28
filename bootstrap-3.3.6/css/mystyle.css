@@ -1,0 +1,92 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@import url("css/usedStyles.css");
+
+/* Change the basics of the navgation bar here
+--------------------------------------------------- */
+.navbar, .dropdown-menu,
+.nav.navbar-nav li a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav .open .dropdown-menu{
+    background-color: #A96232;
+    color: black;
+    border-radius: 0 !important; /* Forces navbar to be square, rather than rounded */
+    border-color: #A96232;
+}
+
+/* Change the link colours on hover, active, and visted of dropdown menu
+-------------------------------------------------- */
+ul.dropdown-menu li a:hover,
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #8C5939;
+    /*color: red;*/
+}
+
+ul.dropdown-menu li a:active,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #2E211B;
+}
+
+ul.dropdown-menu li a:visited{
+    /*background-color: red;*/
+}
+
+/* Change the styling of the carousel button
+-------------------------------------------------- */
+.btn-primary {
+    background-color: #CA6924;
+    border-color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+ /* Example color changes */
+    /*background-color: #265a88; */
+    /*background-position: 0 -15px;*/
+
+}
+
+/* Inner carasoul text */
+.carousel-caption {
+    color: black;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+/* Carasousel width and centering
+------------------------------------------------- */
+#myCarousel {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* Modify the background colour or font colour of the featurettes
+-------------------------------------------------- */
+body {
+    background-color: #BE7F51;
+    padding-bottom: 20px;
+    color: black;
+}
+
+/* Container for all the text on the page that appears after the carousel
+-------------------------------------------------- */
+#page-description {
+    background-color: rgb(210, 206, 169);
+    padding-top: 30px;
+}
+
+/* Change padding in the featurette-divider */
+.featurette-divider {
+    border: 1px solid grey;
+    margin: 40px 0;
+}
+
+/* Modify the width of the featurette container */
+.container {
+    width: 75%;
+}
+
+/* Change font colour of paragraphs */
+p {
+    font-size: 16px;
+}
