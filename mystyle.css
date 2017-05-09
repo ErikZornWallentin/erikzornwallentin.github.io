@@ -97,3 +97,13 @@ p {
 .text-muted {
     /*color: blue;*/
 }
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("assets/fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url("assets/fonts/WorkSans-Bold.ttf");
+}
